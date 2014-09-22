@@ -1,0 +1,2 @@
+/home/gesa/repositories/textanalysis/res/fantasy/rowlingfake.txt
+/home/gesa/repositories/textanalysis/res/fantasy/tolkien.txt
