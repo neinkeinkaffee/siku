@@ -6,13 +6,15 @@ Run the program, specifying the path of the list of text files and the minimum n
 
 Suppose "doclist.txt" looks like this
 
-```/home/gesa/repositories/textanalysis/res/tianyanlun/yf_jiaoyuyuguojiazhiguanxi.txt
+```
+/home/gesa/repositories/textanalysis/res/tianyanlun/yf_jiaoyuyuguojiazhiguanxi.txt
 /home/gesa/repositories/textanalysis/res/tianyanlun/yf_jiuwangjuelun.txt
 /home/gesa/repositories/textanalysis/res/tianyanlun/yf_lunshibianzhiji.txt
 /home/gesa/repositories/textanalysis/res/tianyanlun/yf_tianyanjinhualun.txt
 /home/gesa/repositories/textanalysis/res/tianyanlun/yf_tianyanlun_daoyan15_zuizhi.txt
 /home/gesa/repositories/textanalysis/res/tianyanlun/yf_tianyanlun_daoyan16jinwei.txt
-[...]```
+[...]
+```
 
 Then the program compares "yf_jiaoyuyuguojiazhiguanxi.txt" (first line in "doclist.txt") to all following files. I writes a file "parallels.txt" in the working directory that specifies the parallel passages found, with one parallel passage per line. Suppose *doc0* is the file compared to all other files *docX*. The output format is
 
