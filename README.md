@@ -1,3 +1,5 @@
+# README
+
 This takes a file with a list of textfiles, compares the first of the files specified with all the other ones and returns the parallel passages (i.e. passages that are identical or nearly identical) they share.
 
 Build the source in `src` with `make copy`.
