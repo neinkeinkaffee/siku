@@ -1,6 +1,6 @@
 This takes a file with a list of textfiles, compares the first of the files specified with all the other ones and returns the parallel passages (i.e. passages that are identical or nearly identical) they share.
 
-Build the source in "src" with "make copy".
+Build the source in `src` with `make copy`.
 
 Run the program, specifying the path of the list of text files and the minimum number of characters a parallel phrase should have, e.g. "src/copy res/tianyanlun/doclist.txt 6".
 
