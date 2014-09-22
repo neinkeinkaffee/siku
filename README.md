@@ -4,7 +4,7 @@ This takes a file with a list of textfiles, compares the first of the files spec
 
 Build the source in `src` with `make copy`.
 
-Run the program, specifying the path of the list of text files and the minimum number of characters a parallel phrase should have, e.g. `src/copy res/tianyanlun/doclist.txt 6`.
+Run the program, specifying the path of the list of text files and the minimum number of characters a parallel phrase should have, e.g. `./src/copy ./res/tianyanlun/doclist.txt 6`.
 
 Suppose "doclist.txt" looks like this
 
